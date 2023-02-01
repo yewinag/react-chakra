@@ -4,3 +4,4 @@ export * from './Logo';
 export * from './MobileNav';
 export * from './navData';
 export * from './TextUnderline';
+export * from './Footer';
