@@ -12,9 +12,13 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import { Header } from './components/Header';
+import { Listing } from './components/Listing';
+import { SignupCard } from './components/SignUp';
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Header />
+    <Listing />
+    <SignupCard />
   </ChakraProvider>
 );

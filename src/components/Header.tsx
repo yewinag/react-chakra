@@ -91,7 +91,7 @@ export const Header = () => {
             <DesktopNav display={{ base: 'none', md: 'flex' }} />
             <IconButton
               size={'sm'}
-              justifyContent={'flex-end'}
+              //   justifyContent={'flex-end'}
               variant={'ghost'}
               aria-label={'Toggle Color Mode'}
               onClick={toggleColorMode}
